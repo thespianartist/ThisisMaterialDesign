@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/cyan"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:background="@color/white"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="27dp"
+        android:text="@string/main_title"
+        android:textSize="20dp"
+        android:elevation="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tv_home" />
+
+
+    <ImageButton
+        android:id="@+id/fb_home"
+        android:layout_width="@dimen/float_button_size"
+        android:layout_height="@dimen/float_button_size"
+        android:background="@drawable/button_bg"
+        android:stateListAnimator="@anim/anim"
+        android:layout_marginBottom="55dp"
+        android:layout_marginRight="25dp"
+        android:elevation="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
