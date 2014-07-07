@@ -1,9 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:background="@color/pink"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-</LinearLayout>
+    <TextView
+        android:background="@color/pink"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:elevation="2dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/tv_metaphor" />
+
+    <TextView
+        android:background="@color/pink"
+        android:layout_width="250dp"
+        android:layout_height="62.5dp"
+        android:elevation="2dp"
+        android:id="@+id/tv_metaphor2"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tv_metaphor"
+        android:layout_alignStart="@+id/tv_metaphor" />
+
+    <TextView
+        android:background="@color/pink"
+        android:layout_width="250dp"
+        android:layout_height="31.25dp"
+        android:elevation="2dp"
+        android:id="@+id/tv_metaphor3"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tv_metaphor2"
+        android:layout_alignStart="@+id/tv_metaphor2" />
+
+    <TextView
+        android:background="@color/pink"
+        android:layout_width="250dp"
+        android:layout_height="16.125dp"
+        android:elevation="2dp"
+        android:id="@+id/tv_metaphor4"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tv_metaphor3"
+        android:layout_alignStart="@+id/tv_metaphor3" />
+
+    <TextView
+        android:background="@color/pink"
+        android:layout_width="250dp"
+        android:layout_height="8.0625dp"
+        android:elevation="2dp"
+        android:id="@+id/tv_metaphor5"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tv_metaphor4"
+        android:layout_alignStart="@+id/tv_metaphor4" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="9dp"
+        android:text="@string/material_metaphor_footer"
+        android:textColor="@color/white"
+        android:padding="14dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
