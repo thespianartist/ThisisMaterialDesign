@@ -2,18 +2,23 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
-
         <item name="android:colorPrimary">@color/cyan</item>
         <!--   darker variant of colorPrimary (for status bar, contextual app bars) -->
         <item name="android:colorPrimaryDark">@color/cyan_dark</item>
         <!--   theme UI controls like checkboxes and text fields -->
         <item name="android:colorAccent">@color/accent</item>
+
+
     </style>
 
     <color name="cyan">#00bcd4</color>
     <color name="cyan_dark">#0097a7</color>
+    <color name="black">#000000</color>
     <color name="accent">#dbee02</color>
-    <color name="pink">#f36c60</color>
+    <color name="pink">#ef3b4b</color>
     <color name="white">#FFFFFF</color>
+    <color name="green">#00af96</color>
+    <color name="yellow_button">#ffb510</color>
+    <color name="blue">#b8c8ec</color>
 
 </resources>

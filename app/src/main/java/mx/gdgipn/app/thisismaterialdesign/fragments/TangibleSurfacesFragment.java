@@ -1,30 +1,23 @@
 package mx.gdgipn.app.thisismaterialdesign.fragments;
 
-import android.app.Dialog;
 import android.graphics.Outline;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageButton;
 
 import mx.gdgipn.app.thisismaterialdesign.R;
 
 /**
  * Created by thespianartist on 7/7/14.
  */
-public class HomeFragment extends Fragment {
-
-
-
+public class TangibleSurfacesFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-
-        View homeFragmentView = inflater.inflate(R.layout.fragment_home,container,false);
-        return homeFragmentView;
-
+        View tangibleSurfacesView = inflater.inflate(R.layout.fragment_tanginble_surfaces,container,false);
+        return tangibleSurfacesView;
     }
 
     @Override
@@ -34,9 +27,6 @@ public class HomeFragment extends Fragment {
         int size = getResources().getDimensionPixelSize(R.dimen.float_button_size);
         Outline outline = new Outline();
         outline.setOval(0, 0, size, size);
-        getActivity().findViewById(R.id.fb_home).setOutline(outline);
-
-
+        getActivity().findViewById(R.id.fb_tangible).setOutline(outline);
     }
-
 }

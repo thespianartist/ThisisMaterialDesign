@@ -6,5 +6,18 @@
     <string name="action_settings">Settings</string>
     <string name="main_title">This is Material Design</string>
     <string name="material_metaphor_footer">1 Material Metaphor</string>
+    <string name="dialog_home">Design is the art of considered
+    creation. Our goal is to satisfy the diverse spectrum of human
+    needs. As those needs evolve, so too must our designs, practices,
+    and philosophies.
+    \n\n
+    We challenged ourselves to create a visual lenguage for our users
+    that synthesizes the classic principles of good design with the innovation
+    and possibility of technology ans science.
+    \n\n
+    This is Material Design
+    </string>
+    <string name="tangible_surfaces_footer">2 Tangible Surfaces</string>
+    <string name="dimensional_affordances_footer">3 Dimensional Affordances</string>
 
 </resources>

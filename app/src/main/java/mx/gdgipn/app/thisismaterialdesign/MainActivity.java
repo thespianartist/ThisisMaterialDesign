@@ -12,8 +12,10 @@ import java.util.List;
 import java.util.Vector;
 
 import mx.gdgipn.app.thisismaterialdesign.adapters.PagerAdapter;
+import mx.gdgipn.app.thisismaterialdesign.fragments.DimensionalAffordances;
 import mx.gdgipn.app.thisismaterialdesign.fragments.HomeFragment;
 import mx.gdgipn.app.thisismaterialdesign.fragments.MaterialMetaphorFragment;
+import mx.gdgipn.app.thisismaterialdesign.fragments.TangibleSurfacesFragment;
 
 
 public class MainActivity extends FragmentActivity {
@@ -43,6 +45,9 @@ public class MainActivity extends FragmentActivity {
         List<Fragment> fragments = new Vector<Fragment>();
         fragments.add(Fragment.instantiate(this, HomeFragment.class.getName()));
         fragments.add(Fragment.instantiate(this, MaterialMetaphorFragment.class.getName()));
+        fragments.add(Fragment.instantiate(this, TangibleSurfacesFragment.class.getName()));
+        fragments.add(Fragment.instantiate(this,  DimensionalAffordances.class.getName()));
+
 
         //Seteamos el Adapter con el List de Fragmentos y con el FragmentManager
         pagerAdapter  = new PagerAdapter(getSupportFragmentManager(), fragments);
